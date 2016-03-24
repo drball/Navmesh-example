@@ -10,6 +10,6 @@ function Start () {
 
 function Update () {
 	if (Target) {
-navComponent.SetDestination(Target.position);
+	    navComponent.SetDestination(Target.position);
 	}
 }
